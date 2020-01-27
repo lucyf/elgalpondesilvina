@@ -1,0 +1,82 @@
+
+header div {
+  display: inline-flex; }
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 250px; }
+
+.socialmedia {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+#mail, #instagram, #facebook {
+  display: inline-block;
+  padding: 6px;
+  margin-top: 20px;
+ }
+
+nav ul a {
+  font-family: "roboto-slab", sans-serif;
+  margin: auto;
+  padding: 30px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px; }
+
+nav ul a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer; }
+
+nav ul a:hover {
+  transform: scale(1.2);
+  position: relative; }
+
+#menu {
+  display: block;
+  text-align: center;
+  margin-top: 20px; 
+}
+/*BANNER*/
+#salebanner {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/*Slides*/
+/*Looks*/
+#nuevo {
+  padding: 50px;
+  margin-bottom: 30px;
+}
+/*VIDEO*/
+#video {
+  display: block;
+  margin-top: 50px; }
+
+/*marcas*/
+#marcas {
+  padding: 40px;
+  border-top: black;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+/*Footer*/
+footer {
+  background-color: #ee9990;
+  margin-top: 40px; }
+  footer div {
+    display: inline-flex;
+    padding: 50px;
+    color: #fff; }
+    footer div li {
+      list-style: none; }
+      footer div li h2 {
+        font-family: "roboto-slab", sans-serif;
+        font-size: 20px; }
+        footer div li a:-webkit-any-link {
+          color: inherit;
+          cursor: pointer; }
