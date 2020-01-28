@@ -40,6 +40,20 @@ nav ul a:hover {
   text-align: center;
   margin-top: 20px; 
 }
+/*Un poco de nosotras*/
+
+#vidriera {
+  margin-top: 50px;
+}
+.texto {
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h3 {
+
+}
    
     /*Footer*/
     footer {
