@@ -40,10 +40,7 @@ nav ul a:hover {
   text-align: center;
   margin-top: 20px; 
 }
-
-
 /*Galeria de fotos*/
-
 .pics {
 	opacity: 1; 
 	transition: opacity .25s ease-in-out; 
@@ -54,6 +51,7 @@ nav ul a:hover {
 .pics:hover {
 	opacity: 0.5;
 }
+
 
 /*marcas*/
 

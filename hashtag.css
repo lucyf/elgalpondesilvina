@@ -40,6 +40,21 @@ nav ul a:hover {
   text-align: center;
   margin-top: 20px; 
 }
+/*titulo ppal*/
+#hashtag {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#hashtag a:hover {
+  transform: scale(1.2);
+  position: relative;
+}
+/*Seccion 2*/
+.company {
+  margin-top: 50px;
+}
     /*Footer*/
     footer {
       background-color: #ee9990;
