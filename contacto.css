@@ -1,59 +1,11 @@
-/*HEADER*/
-header div {
-  display: inline-flex; }
-
-#logo {
-  display: block;
-  margin: auto;
-  width: 250px; }
-
-.socialmedia {
-  display: flex;
-  justify-content: flex-end; 
-}
-
-#mail, #instagram, #facebook {
-  display: inline-block;
-  padding: 6px;
-  margin-top: 20px;
- }
-
-nav ul a {
-  font-family: "roboto-slab", sans-serif;
-  margin: auto;
-  padding: 30px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 15px;
-  letter-spacing: 2px; }
-
-nav ul a:-webkit-any-link {
-  color: inherit;
-  cursor: pointer; }
-
-nav ul a:hover {
-  transform: scale(1.2);
-  position: relative; }
-
-#menu {
-  display: block;
-  text-align: center;
-  margin-top: 20px; 
-}*/
 /*Titulos*/
 h1 {
   font-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "quicksand" sans-serif;
 }
 /*Seguinos*/
 #seguinos {
-  margin: 30px;
-}
-.redes {
-  padding: 10px;
-}
-.follow {
-  padding: 10px;
+  border-top: 1px solid #dddddb;
 }
 /*MAPA*/
 #googlemap {
@@ -61,28 +13,22 @@ h1 {
 
 /*form*/
 #contact {
-  margin-top: 50px;
-  padding: 2.5em 0 1em;
+  flex-wrap: nowrap;
   border-top: 1px solid #dddddb;
 }
 .btn-primary {
   margin-top: 20px;
   background-color: black;
 }
-/*Footer*/
-footer {
-      background-color: #ee9990;
-      margin-top: 40px; }
-      footer div {
-        display: inline-flex;
-        padding: 50px;
-        color: #fff; }
-        footer div li {
-          list-style: none; }
-          footer div li h2 {
-            font-family: "roboto-slab", sans-serif;
-            font-size: 20px; }
-            footer div li a:-webkit-any-link {
-              color: inherit;
-              cursor: pointer; }
-  
+/*MOBILE <520PX*/
+
+@media(max-width:520px){
+
+  h1 {
+    font-size: 1em;
+  }
+  .redes {
+    width: 30%;
+  }
+
+}

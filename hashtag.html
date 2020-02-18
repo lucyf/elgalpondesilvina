@@ -9,83 +9,143 @@
 <!--Bootstrap core css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <link rel="stylesheet" type="text/css" href="hashtag.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="hashtag.css">
 </head>
 <body>
     <div class="container-fluid">
-    <header>
-        <div class="socialmedia">
-            <div id="mail">
-                   <img src="master/iconos/correo.svg" title="source: imgur.com" width="25px" /></a> 
-            </div>
-            <div id="instagram">
-                   <img src="master/iconos/instagram.svg"title="source: imgur.com" width="25px" /></a>
-           </div>
-            <div id="facebook">
-                   <img src="master/iconos/facebook.svg" title="source: imgur.com" width="25px" /></a>
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-          <img id="logo" src="master/iconos/logo salmon.svg" title="logo" />
-        </div>
-          <nav >
-            <ul id="menu">
-                <a href="index.html">El Galpon</a>
-                <a href="lookstemporada.html">Looks Temporada</a>
-                <a href="hashtag.html">#lookelgalpon</a>
-                <a href="historia.html">Nuestra Historia</a>
-                <a href="contacto.html">Contacto</a>
+        <header> 
+            <div class="socialmedia d-none d-lg-flex mt-2 mr-3 p-1">
+            <ul>
+              <a href="https://www.instagram.com/elgalpon" class="p-2"><img width="30px" src="master/iconos/instagram.svg" alt=""></a>
+              <a href="https://www.facebook.com/elgalpondesil" class="p-2"><img width="30px"src="master/iconos/facebook.svg" alt=""></a>
+             <a href="contacto.html" class="p-2"><img width="30px" src="master/iconos/correo.svg" alt=""></a> 
             </ul>
-        </nav>
-    </header>
+           </div>
+            <!--LOGO desktop-->
+            <div class="d-none d-lg-flex justify-content-center m-4">
+              <img id="logo" src="master/iconos/logo salmon.svg" title="logo" width="30%" />
+            </div>
+          </div>
+            <!--/Logo-->
+            <!--Nav-->
+              <nav class="navbar navbar-expand-lg navbar-light d-flex">
+                  <a class="navbar-brand mr-0 mr-md-2" href="#">
+                  </a>
+                  <!--Button Mobile-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!--Button Mobile-->
+                  <!--Menu collapsable-->
+                  <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" href="index.html">El Galpon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lookstemporada.html">Looks Temporada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="hashtag.html">#lookelgalpon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Nuestra Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-lg-none m-auto d-flex justify-content-center">
+                        <img id="logo" width="50%" src="master/iconos/logo salmon.svg" title="logo" />
+                    </div>
+                  <!--Menu collapsable-->
+                </nav>
+            </div>
+                <!--/Nav-->
+            </header>
+    <!--Texto ppal-->
     <section>
-        <div id="hashtag" class="row justify-content-md-center">
-            <img src="https://i.imgur.com/HZvOp9l.png" width="300px" alt="#lookelgalpon"/>
+        <div id="hashtag" class="row justify-content-center">
+            <img src="https://i.imgur.com/HZvOp9l.png" width="50%" alt="#lookelgalpon"/>
         </div>
-        <div id="text" class="row justify-content-md-center">
-            <p class="col-4">
+        <div id="text" class="row justify-content-center">
+            <p class="col-4 columna">
                 En <strong>El Galpon</strong> nos encanta ayudarte a encontrar tu look ideal, ese que necesitas para cada ocasíon. <strong>Somos parte de tu vida</strong> y ayudarte a encontrar lo que te queda bien, te gusta y te hace ser mas vos, es una de nuestras pasiones. 
             </p>
-            <p class="col-4">
+            <p class="col-4 columna">
                 Por eso, te invitamos a que seas parte y compartas en las redes con <strong>#lookelgalpon</strong> los outfits en los que <strong>El Galpon</strong> fue parte de tu historia. 
             </p>
         </div>
     </section>
-    <section class=" company row text-center align-items-center justify-content-md-center "> 
-        <div class="col-md-6" class="col-md-4">
-            <img src="https://i.imgur.com/HDAZrd8.jpg" class="img-fluid" width="400px" />
-        </div>
-        <div class="col-md-6">
-            <h2>Acompañamos tus momentos
-                 MAS importantes</h2>
-        </div>
+    <section id="testimonios" class="mt-3 mt-sm-1">
+        <div class="row">
+            <div class="col-4 mb-3 text-white">
+                <img class="card-img img-fluid" src="https://i.imgur.com/QJeGqFA.jpg" alt="Madre e hijas">
+                <div class="card-img-overlay ovl">
+                <div class="text">
+                   <p><strong> "Es increible poder vestirnos las tres en el mismo lugar, siendo tan distintas la una de la otra. Disfrutamos mucho del ambiente y la buena onda de El Galpon"</strong></p>
+                   <address class="firma">-Claudia y sus hijas-</address>
+                </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3 text-white">
+                <img class="card-img img-fluid" src="https://i.imgur.com/7Bxobip.jpg" alt="Civil">
+                <div class="card-img-overlay ovl">
+                <div class="text">
+                   <p><strong> "Despues de buscar por todos lados sin saber que ponerme, en El Galpon me ayudaron y encontre mi look ideal para un dia tan especial. Super contenta."</strong></p>
+                   <address class="firma">- Paula -</address>
+                </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3 text-white">
+                <img class="card-img img-fluid" src="https://i.imgur.com/9vK3Wn7.jpg" alt="Madre e hija adolescente">
+                <div class="card-img-overlay ovl">
+                <div class="text">
+                   <p><strong> "Traigo a mi hija adolescente y me encanta saber que tambien puedo encontrar cosas para mi. Las compras de madre e hija se hacen mas divertidas."</strong></p>
+                   <address class="firma">- Caro y Manu -</address>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 mb-3 text-white">
+                <img class="card-img img-fluid" src="https://i.imgur.com/fOjxg9K.jpg" alt="Grupo de mujeres vestidas del Galpon">
+                <div class="card-img-overlay ovl">
+                    <div class="card-img d-flex justify-content-center">
+                        <img class="img-fluid" width="50%" src="https://i.imgur.com/lMFI6RG.png" alt="#lookelgalpon">
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
     </section>
-    
-    <footer>
-        <div>
-            <ul id="links">
-                <li>
-                    <h2> Atención al cliente</h2>
-                </li>
-                <ul id="listacontacto">
-                <li class="phone">
-                    <i>
-                        <img src="master/iconos/llamada.svg" width="20px" alt="telefono"/>
-                    </i>
-                <a href="tel:(011) 4740-8657">"(011) 4740-8657"
-                    <span> (Lunes a Viernes de 9:oo a 20hs)</span>
-                </a>
-                </li>
-                
-                <li>
-                    <i>
-                        <img src="master/iconos/map.svg" width="20px" alt="telefono"/>
-                    </i>
-                    Boulogne Sur Mer 120, B1617CED Gran Buenos Aires, Buenos Aires
-                </li>
-                </ul>
-            </ul>
-        </div>
+    <!--FOOTER-->
+              <footer>
+                <div  class="p-2">
+                    <ul id="links">
+                        <li>
+                            <h2> Atención al cliente</h2>
+                       </li>
+                        <li class="phone">
+                            <i>
+                                <img src="master/iconos/llamada.svg" width="20px" alt="telefono"/>
+                            </i>
+                        <a href="tel:(011) 4740-8657">"(011) 4740-8657"
+                            <span> (Lunes a Viernes de 9:oo a 20hs)</span>
+                        </a>
+                        </li>
+                        
+                        <li>
+                            <i>
+                                <img class="p-1" src="master/iconos/map.svg" width="20px" alt="telefono"/>
+                            </i>
+                            <a href="https://goo.gl/maps/mLS7TAWfdS3wq7nv7"> Boulogne Sur Mer 120, B1617CED Gran Buenos Aires, Buenos Aires</a>
+                        </li>
+                        </ul>
+                    </ul>
+                </div>
+            </footer>
 
 <!--LIBRERIAS JS-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
