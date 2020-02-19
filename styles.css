@@ -41,3 +41,10 @@ footer {
           footer div li a:-webkit-any-link {
             color: inherit;
             cursor: pointer; }
+
+@media(min-width:520px){
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+}

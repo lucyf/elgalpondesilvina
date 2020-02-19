@@ -12,74 +12,59 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 <link rel="stylesheet" type="text/css" href="styles.css">
  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<!-- Modal -->
-<div class="modal fade" id="primercompra" tabindex="-1" role="dialog" aria-labelledby="primercompra" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img src="master/index/modal.jpg" alt="Codigo promo primer compra">
-        </div>
-      </div>
-    </div>
-  </div>
 <body>
     <div class="container-fluid">
         <header> 
-            <div class="socialmedia d-none d-lg-flex mt-2 mr-3 p-1">
-            <ul>
-              <a href="https://www.instagram.com/elgalpon" class="p-2"><img width="30px" src="master/iconos/instagram.svg" alt=""></a>
-              <a href="https://www.facebook.com/elgalpondesil" class="p-2"><img width="30px"src="master/iconos/facebook.svg" alt=""></a>
-             <a href="contacto.html" class="p-2"><img width="30px" src="master/iconos/correo.svg" alt=""></a> 
-            </ul>
-           </div>
-            <!--LOGO desktop-->
-            <div class="d-none d-lg-flex justify-content-center m-4">
-              <img id="logo" src="master/iconos/logo salmon.svg" title="logo" width="30%" />
-            </div>
+                <div class="socialmedia d-none d-lg-flex mt-2 mr-3 p-1">
+                <ul>
+                  <a href="https://www.instagram.com/elgalpon" class="p-2"><img width="30px" src="master/iconos/instagram.svg" alt=""></a>
+                  <a href="https://www.facebook.com/elgalpondesil" class="p-2"><img width="30px"src="master/iconos/facebook.svg" alt=""></a>
+                <a href="contacto.html" class="p-2"><img width="30px" src="master/iconos/correo.svg" alt=""></a> 
+                </ul>
+              </div>
+                <!--LOGO desktop-->
+                <div class="d-none d-lg-flex justify-content-center m-4">
+                  <img id="logo" src="master/iconos/logo salmon.svg" title="logo" width="30%" />
+                </div>
+              </div>
+                <!--/Logo-->
+              <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light d-flex d-lg-flex justify-content-center">
+      <a class="navbar-brand mr-0 mr-md-2" href="#"></a>
+      <div>
+          <!--Button Mobile-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Button Mobile-->
+          <!--Menu collapsable-->
+          <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">El Galpon</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="lookstemporada.html">Looks Temporada</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="hashtag.html">#lookelgalpon</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="historia.html">Nuestra Historia</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+              </ul>
           </div>
-            <!--/Logo-->
-            <!--Nav-->
-              <nav class="navbar navbar-expand-lg navbar-light d-flex">
-                  <a class="navbar-brand mr-0 mr-md-2" href="#">
-                  </a>
-                  <!--Button Mobile-->
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <!--Button Mobile-->
-                  <!--Menu collapsable-->
-                  <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
-                      <ul class="navbar-nav">
-                          <li class="nav-item">
-                              <a class="nav-link" href="index.html">El Galpon</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="lookstemporada.html">Looks Temporada</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="hashtag.html">#lookelgalpon</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="historia.html">Nuestra Historia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="d-lg-none m-auto d-flex justify-content-center">
-                        <img id="logo" width="50%" src="master/iconos/logo salmon.svg" title="logo" />
-                    </div>
-                  <!--Menu collapsable-->
-                </nav>
-            </div>
-                <!--/Nav-->
-            </header>
+          <!--Menu collapsable-->
+      </div>
+      <div class="d-lg-none m-auto d-flex justify-content-center position-sticky">
+          <img id="logo" width="50%" src="master/iconos/logo salmon.svg" title="logo" />
+      </div>
+    </nav>
+      <!--/Nav-->
+   </header>
     <!--Sale Banner-->
     <section id="salebanner" class="text-center">
         <img img="img-fluid" width="100%" src="master/index/sale.svg" alt= "oferta 50%off efectivo productos seleccionados"  />
